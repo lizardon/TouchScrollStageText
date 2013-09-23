@@ -28,7 +28,6 @@ package com.lizardon.touchscrollstagetext
 {
 	import spark.components.TextInput;
 	import spark.components.supportClasses.StyleableTextField;
-	import spark.skins.mobile.supportClasses.StageTextSkinBase;
 	
 	/**
 	 *  ActionScript-based skin for TextInput controls in mobile applications that uses a
@@ -41,7 +40,7 @@ package com.lizardon.touchscrollstagetext
 	 *  @playerversion AIR 3.0 
 	 *  @productversion Flex 4.6
 	 */
-	public class TouchScrollStageTextInputSkin extends StageTextSkinBase
+	public class TouchScrollStageTextInputSkin extends TouchScrollStageTextSkinBase
 	{
 		//--------------------------------------------------------------------------
 		//
