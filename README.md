@@ -3,6 +3,8 @@ TouchScrollStageText
 
 An Apache Flex StageText based mobile TextAreaSkin and TextInputSkin that can be used in a Scroller.
 
+TouchScrollStageText provieds a workaround for the StageText floating effect when used in a Scroller.
+
 Currenty in Flex Mobile there are two types of TextInput skins StageText based and non-StageText Based. A discussion of uses for both can be found at: http://help.adobe.com/en_US/flex/mobileapps/WS19f279b149e7481c6a9f451212b87fe7e87-7fff.html
 
 There are many benefits to using the StageText. However currently when using a StageText skin in a Scroller, as would be the case for many forms, the text in the text fied appears to float when scrolling.
