@@ -16,7 +16,7 @@ To use the provided skins simply set the skinClass on a Spark TextArea or TextIn
     <s:TextArea width="100%" skinClass="com.lizardon.touchscrollstagetext.TouchScrollStageTextAreaSkin" text="TouchScrollStageTextAreaSkin"/>
     <s:TextInput width="100%" skinClass="com.lizardon.touchscrollstagetext.TouchScrollStageTextInputSkin" text="TouchScrollStageTextInputSkin"/>
 
-Additionally, because the implementation depends on ToucEvents the Multitouch input mode has to be set to MultitouchInputMode.TOUCH_POINT. This can be done in the Application initializer:
+Additionally, because the implementation depends on TouchEvents the Multitouch input mode has to be set to MultitouchInputMode.TOUCH_POINT. This can be done in the Application initializer:
 
     flash.ui.Multitouch.inputMode = MultitouchInputMode.TOUCH_POINT;
 
